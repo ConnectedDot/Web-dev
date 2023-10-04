@@ -1,0 +1,28 @@
+{
+	"name": "web-dev-for-beginners",
+	"version": "1.0.0",
+	"description": "Web Dev for Beginners - A Curriculum",
+	"main": "index.js",
+	"scripts": {
+		"convert": "node_modules/.bin/docsify-to-pdf"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ConnectedDot/web-dev.git"
+	},
+	"keywords": [
+		"web",
+		"dev",
+		"development",
+		"curriculum"
+	],
+	"author": "Microsoft Cloud Advocates",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ConnectedDot/web-dev/issues"
+	},
+	"homepage": "https://github.com/ConnectedDot/web-dev#readme",
+	"devDependencies": {
+		"docsify-to-pdf": "0.0.5"
+	}
+}
